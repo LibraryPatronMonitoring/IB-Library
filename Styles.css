@@ -13,6 +13,8 @@ html, body {
     display: inline-flex;
     max-width: 100%;
     height: 100%;
+    overflow-y: scroll;
+    overflow-y: visible;
 }
 /* img from left */
 .bg {
@@ -27,7 +29,13 @@ h1 {
     margin: 0 10px 0 25px;
     font-family: Tahoma;
 }
+a {
+    color: #0000FF;
+}
 /* privacy notice */
+a {
+    color: #0000FF;
+}
 p {
     margin: 0 0 7px 20px;
     padding: 10px;
@@ -93,12 +101,11 @@ input:placeholder-shown {
 label[for="Submit"] {
     display: flex;
     justify-content: center;
-    margin: 35px;
+    margin: 30px;
 }
 button {
     padding: 2px;
-    /* position: relative;
-    left: 44%;
+    /* left: 44%;
     top: 7%; */
     width: auto;
     background-color: white /*#d5d5d8*/;
@@ -112,7 +119,7 @@ button {
 }
 
 #msg {
-    margin: 10px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -133,7 +140,7 @@ button {
         margin: 20px;
     }
     h1 {
-        font-size: 100%;
+        font-size: 200%;
         width: 100%;
         text-align: left;
     }
@@ -155,10 +162,6 @@ button {
     .Inner-Up {
         padding: 0;
     }
-    .wrapper {
-        position: relative;
-        right: 30px;
-    }
     h1 {
         font-size: 200%;
         width: 100%;
@@ -172,7 +175,6 @@ button {
     }
     .box {
         margin: 0;
-        height: 60%;
     }
 }
 /* 480px */
@@ -200,7 +202,6 @@ button {
     .box {
         width: 95%;
         margin: 0;
-        height: 50%;
     }
     input {
         width: 95%;
