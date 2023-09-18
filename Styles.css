@@ -73,7 +73,7 @@ form {
 /* Box mismo aka. Fieldset */
 .box {
     margin: 5px 30px 5px 30px;
-    width: 400px;
+    width: 300px;
     height: 350px;
     max-height: 350px;
     padding: 2rem 0;
@@ -91,7 +91,7 @@ label {
 input{
     margin: 10px 10px 10px 10px;
     padding: 0 0 0 5px;
-    width: 440px;
+    width: 300px;
     height: 40px;
 }
 
@@ -105,7 +105,6 @@ label[for="Submit"] {
     display: flex;
     justify-content: center;
     margin: 30px;
-    margin-top: 35px;
 }
 form {
     display: flex;
@@ -115,7 +114,7 @@ form {
 input {
     margin: 10px 20px 10px 20px;
     padding: 10px;
-    min-width: 400px;
+    width: 300px;
     height: 40px;
 }
 
