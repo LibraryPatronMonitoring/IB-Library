@@ -84,7 +84,7 @@ form {
 /* Text before input text */
 label {
     display: block;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 20px;
     font-family: Tahoma;
 }
 /* input */
