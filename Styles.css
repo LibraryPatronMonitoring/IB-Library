@@ -37,10 +37,13 @@ a {
     color: #0000FF;
 }
 p {
-    margin: 0 0 7px 20px;
+    margin: 0 0 5px 30px;
     padding: 10px;
     font-size:xx-small;
     width: 420px;
+}
+legend {
+    font-size: large;
 }
 /* logo */
 .IC {
@@ -69,10 +72,10 @@ form {
 
 /* Box mismo aka. Fieldset */
 .box {
-    margin: 5px 20px 5px 20px;
+    margin: 5px 30px 5px 30px;
     width: 400px;
-    height: 420px;
-    min-height: 420px;
+    height: 350px;
+    max-height: 350px;
     padding: 2rem 0;
     border-radius: 6px;
     border: 1.5px solid black;
@@ -102,7 +105,20 @@ label[for="Submit"] {
     display: flex;
     justify-content: center;
     margin: 30px;
+    margin-top: 35px;
 }
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    min-width: 400px;
+    height: 40px;
+}
+
 button {
     padding: 2px;
     /* left: 44%;
@@ -119,7 +135,7 @@ button {
 }
 
 #msg {
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
 }
@@ -176,6 +192,9 @@ button {
     .box {
         margin: 0;
     }
+    .rightside {
+        margin-left: -20px;
+    }
 }
 /* 480px */
 @media screen and (max-width: 480px) {
@@ -200,8 +219,7 @@ button {
         margin-bottom: 15px;
     }
     .box {
-        width: 95%;
-        margin: 0;
+        width: 100%;
     }
     input {
         width: 95%;
