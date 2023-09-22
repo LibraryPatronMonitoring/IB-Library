@@ -78,8 +78,9 @@ form {
     max-height: 350px;
     padding: 2rem 0;
     border-radius: 6px;
-    border: 1.5px solid black;
+    border: 0.5px none black;
     background-color: rgb(243, 244, 247);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* Text before input text */
 label {
