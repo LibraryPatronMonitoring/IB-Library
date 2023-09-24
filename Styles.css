@@ -23,6 +23,7 @@ html, body {
     justify-content: flex-start;
     overflow-x: hidden;
     overflow-y: hidden;
+    object-fit: cover;
 }
 /* title */
 h1 {
@@ -66,15 +67,14 @@ legend {
 }
 /* The whole form */
 form {
-    margin: 0 auto;
-    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 /* Box mismo aka. Fieldset */
 .box {
-    margin: 5px 30px 5px 30px;
+    margin: 10px 30px 5px 30px;
     width: 300px;
-    height: 350px;
     max-height: 350px;
     padding: 2rem 0;
     border-radius: 6px;
@@ -89,9 +89,9 @@ label {
     font-family: Tahoma;
 }
 /* input */
-input{
-    margin: 10px 10px 10px 10px;
-    padding: 0 0 0 5px;
+input[type=text]{
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
     width: 300px;
     height: 40px;
     border: 1.5px solid #ccc;
@@ -105,31 +105,21 @@ input:placeholder-shown {
 }
 
 /* submit button*/
-label[for="Submit"] {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
+input[type=submit] {
+    margin: 25px 20px 10px 20px;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 0.2px outset #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    background: #333;
 }
 form {
     display: flex;
     justify-content: center;
-}
-
-input {
-    margin: 10px 20px 10px 20px;
-    padding: 10px;
-    width: 300px;
-    height: 40px;
-}
-
-button {
-    padding: 2px;
-    /* left: 44%;
-    top: 7%; */
-    width: auto;
-    background-color: white /*#d5d5d8*/;
-    border-color: #d5d5d8;
-    font-size: 1rem;
 }
 
 #submit:hover {
@@ -138,7 +128,7 @@ button {
 }
 
 #msg {
-    margin-top: 70px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -146,6 +136,23 @@ button {
 
 .rightside {
     margin-top: 30px;
+}
+
+/* Progress Bar */
+#myProgress {
+    width: 100%;
+    background-color: #ddd; 
+    margin-top: 40px;
+  }
+  
+#progress-bar {
+    width: 0%;
+    height: 5px;
+    /* background-color: #04AA6D; */
+    background-color: #EF2D56;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
 }
 /*MEDIA QUERY FOR MOBILE RESPONSIVENESS */
 
